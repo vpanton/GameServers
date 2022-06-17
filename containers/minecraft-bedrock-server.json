@@ -1,0 +1,13 @@
+[{
+  "name"   :        "MinecraftBedrockServer",
+  "image"  :        "itzg/minecraft-bedrock-server",
+  "memory" :        1024,
+  "portMapping": [{
+     "containerPort" : 19132,
+     "hostPort" :      19132,
+     "protocol" :      "udp"}],
+  "environment" : [{
+     "name"  : "EULA",
+     "value" : "TRUE"}]
+
+}]

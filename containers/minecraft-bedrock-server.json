@@ -2,7 +2,7 @@
   "name"   :        "MinecraftBedrockServer",
   "image"  :        "itzg/minecraft-bedrock-server",
   "memory" :        1024,
-  "portMapping": [{
+  "portMappings": [{
      "containerPort" : 19132,
      "hostPort" :      19132,
      "protocol" :      "udp"}],

@@ -1,0 +1,6 @@
+name: GameServers
+runtime:
+  name: python
+  options:
+    virtualenv: venv
+description: IaC for game servers
